@@ -8,15 +8,45 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.5284391534391535,
+            "y": 0.5586419753086419,
+            "uniqueID": 521440,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9867724867724867,
             "y": 0.5,
             "uniqueID": 564189,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "source/233974/521440Rectangle"
+                }
+            ]
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 521440,
+            "ap2ID": 564189
+        }
+    ],
     "fileTypeVersion": 1,
     "simplify": false,
     "unitsIndex": 0,
